@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> All Products - Jac's Store</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body> 
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="https://scontent.fmnl33-4.fna.fbcdn.net/v/t1.15752-9/480662030_1416867229283144_4079314443893824871_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeFOpeNnY9GOzaQSgCuzFXMqrHUKuTj-SVasdQq5OP5JVlna3OAzf4HRxlOzLd9OgvgEeCiIsT7jsQRdxzs9crjE&_nc_ohc=9eVsLCpG_wsQ7kNvgEFJRTJ&_nc_oc=AdgBuE62L_obqPgXm7uHhzVYHe-0W6iN3ru_LnfLev9x0RvmdJ1Fio9owoCjPgpgWfk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fmnl33-4.fna&oh=03_Q7cD1gEGMo2BsHoBhtjSk8A7QnH0FRflHH8u-Mo2T5Mr6sc8dw&oe=67E7E235" width="125px" alt="paload ka">
+                </div>
+                <nav>
+                    <ul id="menuIteyms">
+                        <li> <a href="">Home</a></li>
+                        <li> <a href="">Products</a></li>
+                        <li> <a href="">About</a></li>
+                        <li> <a href="">Contact</a></li>
+                        <li> <a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="https://media-hosting.imagekit.io//a8372f00406d4905/add-to-cart.png?Expires=1835254110&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=rHj6oKkfHDT0-hgADg12HvchAG-9CjVjfhhgBAON-dxczbPfMqVIjrz12y-wdIAAHTUZ0n-pmc7h7B9Bk5e1o1ek68atnciwLU-uDhhNLQKnRKsY5jlnfupMHhNoml9RRnroshoEb~RHFfal~rpZq~ELhYJYRVSsOba~JOgXzl1La77kGN44rl9jvjD7NiZCLybFQ46zoS6mfkDi5TFxKzCwc8qzbCP5DeuAolzzJnTendyCfOGMNjNdgrfCMnKhj-kLYk5EkL3UXuOOe8SpLPVca2jU0scGISs~BIrm53lJ6oVgoY9FwcOvrRQaqmHSRs3YPKwvrKelNbJRrDNvQw__" width="30px" height="30px" title="add to cart icons" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/128/2099/2099192.png" class="menu" onclick="menutoggle()">
+            </div>
+        </div>
+    </div>
+    <div class="small-container single">
+         <div class="row">
+            <div class="cs2">
+                <img src="https://i5.walmartimages.com/seo/7-eleven-Logo-T-shirts-T-Shirt-Beautiful-Size-Up-To-4XL_6cc8b9ce-fc56-428c-b455-6125fff769d0.3a600dd5868fa6786ef5cbf1e428c3df.jpeg" width="100%" id="Productimg">
+                <div class="small-img-row">
+                    <div class="small-img-cs">
+                        <img src="data:image/jpeg;base64,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" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-cs">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7sK-hI8wcwDNmQ5eylfNamHg4HDcDVQcvaw&s" width="100%"  class="small-img">
+                    </div>
+                    <div class="small-img-cs">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB0KrAHiR3zWe6LYSuB_j66ahWZ8F8mDeMww&s" width="100%"  class="small-img">
+                    </div>
+                    <div class="small-img-cs">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrQsRj0J2m8siFA4MNG1WpIL2OfhHFe122xQ&s" width="100%"   class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="cs2">
+                <p>7/11 - T-shirt fasion</p>
+                <h1>gray and black T-shirt by searching </h1>
+                <h4>₱789.00</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>Large</option>
+                    <option>Medium</option>
+                    <option>Small</option>
+                </select>
+                <input type="number" value="1">
+                <a href="" class="btn">Add To Cart</a>
+                 <h3>Product Details <i class="fa fa-indent"></i></h3>
+                 <br>
+                 <p>Give your summer wardrobe a style upgrade with the 7/11 active T-shirt.</p>
+            </div>
+         </div>
+    </div>
+
+    <div class="small-container">
+        <div class="row row2">
+            <h2>Related Product</h2>
+            <p>View more</p>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <div class="row">
+            <div class="cs4">
+                <img src="https://scontent.fmnl33-1.fna.fbcdn.net/v/t1.15752-9/480820956_3753952011562694_1979108711653611991_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeEpotYZb0VaAWmOqaK6tUReGkBifVN2cPsaQGJ9U3Zw-xBPeWLEuFbi1_FWzjCuA1O14cdUjufxEaIzjHFFbuqc&_nc_ohc=NrRLSFHelYUQ7kNvgHFYjPj&_nc_oc=AdggwbYXcZLo_OCBHUKsoJDFcY1D8uK1i-UhY8GVVE0-kMQ6N_T0fjO_lib8b_TYtAA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fmnl33-1.fna&oh=03_Q7cD1gEcK_HKmOB1N_pb4vq_9G3mA407uec20bOkRvcBx70X9g&oe=67E802EA" >
+                <h4>7inches shirt: brandnew</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₱789.00</p>
+            </div>
+            
+            <div class="cs4">
+                <img src="https://scontent.fmnl33-2.fna.fbcdn.net/v/t1.15752-9/480804078_1020276176625250_4178755780167383880_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=104&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeHwPJQbKEoYHcozvd-PAve-hKVEzhYxcI-EpUTOFjFwjwSaS9ubeVfdJz6Gnx7eVhcVqpYuQiVqJ0H4MVVc7iw8&_nc_ohc=jZmD8ISpVf4Q7kNvgEWc3tF&_nc_oc=AdiiNhYKVbTr9OEKmLhyrQmC0lAdLaReQUa7Pa2wjkO7oM2x98Z3cOgCZ4XnAkKzeiw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fmnl33-2.fna&oh=03_Q7cD1gGnx74OiLmzzpCntAsez1mW1R2VyoSRr_p1XEKCP53qPQ&oe=67E7EE5D" >
+                <h4>singles shirt: no bebe design</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₱789.00</p>
+            </div>
+            <div class="cs4">
+                <img src="https://scontent.fmnl33-2.fna.fbcdn.net/v/t1.15752-9/480428874_1509062353832224_7095637978749367527_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=104&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeEWtCNZs-ksoYSZSMgmnjoPkdSrEgPq_xGR1KsSA-r_EUCFHzHCbxGw-WDfr5trsvI4bDp5go4LfaobWlRcQio0&_nc_ohc=YX2Ww6-euPwQ7kNvgF4Ps8m&_nc_oc=AdjsbpTnigYR00D3WTXuKfheSddlMWejAeT_c4JkoG_Mea_hzrZlbeSbUhwALFJA6_Q&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fmnl33-2.fna&oh=03_Q7cD1gGTYpDicNSDUqasLSkg6hnPvzmSpkovOuq_qdcVMs-jLg&oe=67E7D19C" >
+                <h4>Starguts shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₱1099.00</p>
+            </div>
+            <div class="cs4">
+                <img src="https://scontent.fmnl33-3.fna.fbcdn.net/v/t1.15752-9/481317678_944794867863756_304585003865616993_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGhHHEHhA5NvSfjgmngi7Px-ET-rQBMn7D4RP6tAEyfsDDSXWdKLGBjUmTRTNgn1cROeLiR35mtLX2XhwPjXMAv&_nc_ohc=PhEXlLP8BZcQ7kNvgGFRL5i&_nc_oc=AdguW-6XajCMgFoHS7JJODjveqaJDD5WfgqCmaMFeLhC9MoYP2BtrX9cfXNqVAjQLyg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fmnl33-3.fna&oh=03_Q7cD1gHxK_qdXfyHYdns4MgME5lYjqdw9C279vgeYezIkDIOkQ&oe=67E7EA9A" >
+                <h4>ELVI'S shirt yamete</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>800.00</p>
+            </div>
+            </div>
+            
+    </section>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-cs1">
+                    <h3>I-download mo'to!</h3>
+                    <p>Download  App for Andriod and Ios mobile phone.</p>
+                    <div class="applogo">
+                        <img src="https://freelogopng.com/images/all_img/1664287128google-play-store-logo-png.png">
+                        <img src="https://www.gov.br/pt-br/imagens-de-servicos/apple.png">
+                    </div>
+                </div>
+                <div class="footer-cs2">
+                    <img src="https://scontent.fmnl33-4.fna.fbcdn.net/v/t1.15752-9/480662030_1416867229283144_4079314443893824871_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeFOpeNnY9GOzaQSgCuzFXMqrHUKuTj-SVasdQq5OP5JVlna3OAzf4HRxlOzLd9OgvgEeCiIsT7jsQRdxzs9crjE&_nc_ohc=9eVsLCpG_wsQ7kNvgG5zY-o&_nc_oc=AdiNtC1KGjfzY-dJ7HMdLYm4dbQ8mEb40w7V4DIsm2vNVVrWMAFQvzTU__ZQyodhnBU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fmnl33-4.fna&oh=03_Q7cD1gFgPGxhijEDIEr2pKKWwtM8OOi_VLMMYdm2694O8EmEJw&oe=67EA4CF5">
+                    <p>I hope you like it</p>
+                </div>
+                <div class="footer-cs3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Tiktok</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2030</p>
+        </div>
+    </div>
+    <script>
+        var menuIteyms = document.getElementById("menuIteyms")
+        menuIteyms.style.maxHeight = "0px"
+        function menutoggle(){
+            if(menuIteyms.style.maxHeight == "0px")
+               {
+                 menuIteyms.style.maxHeight = "200px"
+               }
+            else
+               {
+                 menuIteyms.style.maxHeight = "0px"
+               }
+        }
+    </script>
+
+    <script>
+        var Productimg = document.getElementById("Productimg");
+        var smallimg = document.getElementsByClassName("small-img");
+        smallimg[0].onclick = function()
+        {
+            Productimg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function()
+        {
+            Productimg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function()
+        {
+            Productimg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function()
+        {
+            Productimg.src = smallimg[3].src;
+        }
+    </script>
+</body>
+</html>
